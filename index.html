@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bitipedia | Pure Turkish Vocabulary</title>
+  <meta name="description" content="Bitipedia, tamamen Türkçe kelime hazinesi sunan çevrimiçi bir sözlüktür.">
+  <meta name="keywords" content="Türkçe sözlük, kelime anlamları, etimoloji, Türkçe öğrenme">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header> 
+    <h1 id="mainTitle">Bitipedia</h1>
+    <button id="themeToggle" class="theme-toggle">
+      <span id="sunEmoji" class="emoji">🌞</span>
+      <span id="moonEmoji" class="emoji">🌙</span>
+    </button>
+  </header>
+
+  <div class="search-container">
+    <div class="search-box">
+      <input type="text" id="searchBox" placeholder="Kelime ara...">
+      <span id="searchIcon" class="search-icon">&#128269;</span>
+    </div>
+    <button id="randomButton" class="button">
+      <span id="dieEmoji" class="emoji">🎲</span>
+    </button>
+    <div id="suggestions"></div>
+  </div>
+
+  <main>
+    <div class="container">
+      <div class="special-keys">
+        <button class="special-key">ç</button>
+        <button class="special-key">ğ</button>
+        <button class="special-key">ı</button>
+        <button class="special-key">ö</button>
+        <button class="special-key">ş</button>
+        <button class="special-key">ü</button>
+      </div>
+      <p id="wordCountMessage"></p>
+      <div class="result" id="result"></div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Bitipedia. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="scripts.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.3.9/purify.min.js"></script>
+</body>
+</html>
