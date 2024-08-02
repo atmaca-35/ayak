@@ -1,4 +1,4 @@
-/* Genel Stil Ayarlarý */
+/* Genel Stil AyarlarÄ± */
 * {
   margin: 0;
   padding: 0;
@@ -34,12 +34,12 @@ h1 {
   font-size: 2.5em;
 }
 
-/* Ana Ýçerik */
+/* Ana Ä°Ã§erik */
 main {
   padding: 40px 0;
 }
 
-/* Arama Kutusu ve Öneriler */
+/* Arama Kutusu ve Ã–neriler */
 .search-container {
   position: relative;
   display: flex;
@@ -47,6 +47,7 @@ main {
   width: 100%;
   max-width: 500px;
   margin: 0 auto 20px;
+  transform: translateY(-24.795px); /* YukarÄ± doÄŸru taÅŸÄ±r */
 }
 
 /* Arama Kutusu */
@@ -109,7 +110,7 @@ main {
   height: 24px;
 }
 
-/* Sonuç Alaný */
+/* SonuÃ§ AlanÄ± */
 .result {
   text-align: left;
   margin-top: 20px;
@@ -144,7 +145,7 @@ main {
   color: #dc3545;
 }
 
-/* Öneri Kutusu (Suggestions) */
+/* Ã–neri Kutusu (Suggestions) */
 #suggestions {
   position: absolute;
   top: 100%;
@@ -180,7 +181,7 @@ main {
   background-color: #f0f0f0;
 }
 
-/* Ekran Boyutuna Göre Duyarlýlýk (Responsive) */
+/* Ekran Boyutuna GÃ¶re DuyarlÄ±lÄ±k (Responsive) */
 @media (max-width: 768px) {
   .container {
     width: 95%;
@@ -199,7 +200,7 @@ main {
   }
 }
 
-/* Kelime Sayýsý Mesajý */
+/* Kelime SayÄ±sÄ± MesajÄ± */
 #wordCountMessage {
   text-align: center;
   margin-top: 10px;
@@ -269,7 +270,7 @@ body.dark-mode #themeToggle .emoji {
   filter: none;
 }
 
-/* Tema Deðiþtirme Butonu */
+/* Tema DeÄŸiÅŸtirme Butonu */
 #themeToggle {
   background: none;
   border: none;
@@ -298,7 +299,7 @@ body.dark-mode #themeToggle .emoji {
   animation: fadeIn 1s ease-in-out;
 }
 
-/* Dark Mode Özel Renkler */
+/* Dark Mode Ã–zel Renkler */
 body.dark-mode .result h3 {
   color: #ffffff;
 }
@@ -307,7 +308,7 @@ body.dark-mode .result .highlight {
   color: #9b59b6;
 }
 
-/* Özel Karakter Butonlarý */
+/* Ã–zel Karakter ButonlarÄ± */
 .special-keys {
   display: flex;
   justify-content: center;
